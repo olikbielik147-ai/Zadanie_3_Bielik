@@ -535,28 +535,6 @@
     </style>
 </head>
 <body>
-    <!-- Header -->
-    <header class="site-header">
-        <div class="container">
-            <div class="header-inner">
-                <a href="index.html" class="logo">Maison <span>Dorée</span></a>
-                
-                <nav class="nav-main">
-                    <a href="https://templatemo.com/page/1" target="_blank">Templates</a>
-                    <a href="https://templatemo.com/about" target="_blank">About</a>
-                    <a href="https://templatemo.com/contact" target="_blank">Contact</a>
-                    <a href="https://templatemo.com" target="_blank" class="nav-cta">Visit TemplateMo</a>
-                </nav>
-                
-                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
-        </div>
-    </header>
-    
     <!-- Mobile Navigation -->
     <div class="mobile-overlay" id="mobileOverlay"></div>
     <nav class="mobile-nav" id="mobileNav">
@@ -681,27 +659,6 @@
             </div>
         </div>
     </section>
-    
-    <!-- Footer -->
-    <footer class="site-footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <p class="footer-logo">Maison <span>Dorée</span></p>
-                    <div class="footer-divider"></div>
-                    <p class="footer-credit">
-                        Design: <a href="https://templatemo.com" target="_blank" rel="nofollow">TemplateMo</a>
-                    </p>
-                </div>
-                <div class="footer-links">
-                    <a href="index.html">Home</a>
-                    <a href="https://templatemo.com" target="_blank">TemplateMo</a>
-                    <a href="https://www.tooplate.com" target="_blank">Tooplate</a>
-                </div>
-            </div>
-        </div>
-    </footer>
-    
     <script>
         // Mobile navigation
         const menuToggle = document.getElementById('menuToggle');
@@ -731,4 +688,7 @@
         });
     </script>
 </body>
+<?php  $file_path = "parts/header.php"; if(!include($file_path)) {     echo"Failed to include $file_path";} ?>
+ <?php  $file_path = "parts/footer.php"; if(!include($file_path)) {     echo"Failed to include $file_path";} ?>
+
 </html>

@@ -19,29 +19,6 @@ https://templatemo.com/tm-611-maison-doree
 -->
 </head>
 <body>
-    <!-- Header -->
-    <header class="site-header" id="header">
-        <div class="container">
-            <div class="header-inner">
-                <a href="#" class="logo">Maison <span>Dorée</span></a>
-                
-                <nav class="nav-main">
-                    <a href="#collections">Collections</a>
-                    <a href="#story">Our Story</a>
-                    <a href="#craftsmanship">Craftsmanship</a>
-                    <a href="#contact">Visit Us</a>
-                    <a href="#contact" class="nav-cta">Book Appointment</a>
-                </nav>
-                
-                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
-        </div>
-    </header>
-    
     <!-- Mobile Navigation -->
     <div class="mobile-overlay" id="mobileOverlay"></div>
     <nav class="mobile-nav" id="mobileNav">
@@ -434,75 +411,10 @@ https://templatemo.com/tm-611-maison-doree
             </div>
         </div>
     </section>
-    
-    <!-- Footer -->
-    <footer class="site-footer">
-        <div class="container">
-            <div class="footer-grid">
-                <!-- Column 1: Brand & Contact -->
-                <div class="footer-brand">
-                    <p class="footer-logo">Maison <span>Dorée</span></p>
-                    <p class="footer-tagline">
-                        Handcrafted gold jewelry of exceptional quality and timeless elegance. Family-owned atelier since 1987.
-                    </p>
-                    <div class="footer-contact-info">
-                        <p>742 Fifth Avenue, Suite 1200</p>
-                        <p>New York, NY 10019</p>
-                        <p><a href="tel:+12125551234">+1 (212) 555-1234</a></p>
-                        <p><a href="mailto:hello@maisondoree.com">hello@maisondoree.com</a></p>
-                    </div>
-                </div>
-                
-                <!-- Column 2: Quick Links -->
-                <div class="footer-column">
-                    <h4 class="footer-column-title">Collections</h4>
-                    <ul class="footer-links">
-                        <li><a href="#collections">All Collections</a></li>
-                        <li><a href="#">Bridal</a></li>
-                        <li><a href="#">Everyday Elegance</a></li>
-                        <li><a href="#">Statement Pieces</a></li>
-                        <li><a href="#">Men's Collection</a></li>
-                    </ul>
-                </div>
-                
-                <!-- Column 3: Company -->
-                <div class="footer-column">
-                    <h4 class="footer-column-title">Company</h4>
-                    <ul class="footer-links">
-                        <li><a href="#story">Our Story</a></li>
-                        <li><a href="#craftsmanship">Craftsmanship</a></li>
-                        <li><a href="#contact">Visit Us</a></li>
-                        <li><a href="#">Custom Design</a></li>
-                        <li><a href="#">Care Guide</a></li>
-                    </ul>
-                </div>
-                
-                <!-- Column 4: About This Website -->
-                <div class="footer-column footer-about">
-                    <h4 class="footer-column-title">About This Website</h4>
-                    <p>
-                        This is a free HTML CSS template designed for gold jewelry boutiques and luxury brands.
-                    </p>
-                    <p>
-                        You may download and use this template for your website. Please support us by keeping the credit link to <a href="https://templatemo.com" target="_blank">TemplateMo</a>.
-                    </p>
-                    <p>
-                        Images: <a href="https://unsplash.com" target="_blank">Unsplash</a>
-                    </p>
-                </div>
-            </div>
-            
-            <!-- Footer Bottom -->
-            <div class="footer-bottom">
-                <p class="footer-copyright">© 2026 Maison Dorée. Design: <a href="https://templatemo.com" target="_blank" rel="nofollow">TemplateMo</a></p>
-                <div class="footer-social">
-                    <a href="#">Instagram</a>
-                    <a href="#">Pinterest</a>
-                    <a href="#">Facebook</a>
-                </div>
-            </div>
-        </div>
-    </footer>
     <script src="templatemo-maison-doree.js"></script>
 </body>
+<?php  $file_path = "parts/header.php"; if(!include($file_path)) {     echo"Failed to include $file_path";} ?>
+ <?php  $file_path = "parts/footer.php"; if(!include($file_path)) {     echo"Failed to include $file_path";} ?>
+
 </html>
+

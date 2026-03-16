@@ -415,6 +415,10 @@ https://templatemo.com/tm-611-maison-doree
 </body>
 <?php  $file_path = "parts/header.php"; if(!include($file_path)) {     echo"Failed to include $file_path";} ?>
  <?php  $file_path = "parts/footer.php"; if(!include($file_path)) {     echo"Failed to include $file_path";} ?>
+ <?php
+require 'function.php';
+$data = getData();
+?>
 
 </html>
 
